@@ -22,7 +22,7 @@ contract Lottery {
     uint256 constant internal BLOCK_LIMIT = 256; // 블록 해쉬로 확인할 수 있는 제한
     uint256 constant internal BET_BLOCK_INTERVAL = 3; // 3번째 블록해쉬
 	// 1 * 10 ** 18 = 1 eth
-	uint256 constant internal BET_AMOUNT = 5 * 10 ** 15; // 0.005 eth
+	uint256 constant internal BET_AMOUNT = 0 * 10 ** 15; // 0.005 eth
     ////
 
     uint256 private _pot; // 플레이어가 베팅한 금액의 총합 = 팟머니
